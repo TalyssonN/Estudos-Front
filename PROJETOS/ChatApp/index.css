@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b011b;
+    color: azure;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.inputChat{
+    width: 600px;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1c1c2e;
+    color: azure;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.inputChat input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #1c1c2e;
+    color: azure;
+    font-size: 1.2rem;
+    margin:0 auto 15px auto;
+}
+
+.inputChat button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #1c1c2e;
+    color: azure;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+}
