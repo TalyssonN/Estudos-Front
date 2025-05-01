@@ -9,9 +9,10 @@ const System = () => {
             <h1>Menu</h1>
             <nav className="menu">
                 <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/login">Login</a></li>
-                    <li><a href="/menu">Menu</a></li>
+                    <li className="profileLink linkSysGeral"><Link to="/profile">Profile</Link></li> {/* Link para a página de perfil */}
+                    <li className="chatLink linkSysGeral"><Link to="/chat">Chat</Link></li> {/* Link para a página de chat */}
+                    <li className="linkNotepad linkSysGeral"><Link to="/notepad">Anotações</Link></li>{/* Link para o bloco de notas */}
+                    <li className="loginLink linkSysGeral"><Link to="/login">Sair</Link></li> {/* Link para a página de login */}
                 </ul>
             </nav>
         </div>
