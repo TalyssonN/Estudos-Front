@@ -1,0 +1,85 @@
+/* login.css */
+
+.login-container {
+  min-height: 94vh;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  font-size: 28px;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1e40af;
+}
+
+.login-links,
+.login-footer {
+  font-size: 14px;
+  text-align: center;
+  color: #6b7280;
+  margin-top: 20px;
+}
+
+.login-links a,
+.login-footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.login-links a:hover,
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+.login-footer {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 15px;
+  margin-top: 20px;
+}
