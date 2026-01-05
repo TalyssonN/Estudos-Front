@@ -1,0 +1,21 @@
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #0D1117;
+}
+h1 {
+  color: #f8f7f7;
+  margin-bottom: 20px;
+  font-size: 3vw;
+}
+
+
