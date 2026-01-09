@@ -1,6 +1,3 @@
-Perfeito! Aqui está uma **versão de README estilo portfólio**, com seções coloridas, badges, emojis e espaço para colocar links ou imagens dos projetos, pronta para o GitHub:
-
----
 
 <h1 align="center">🚀 Meu Repositório Full Stack 🚀</h1>  
 <p align="center">Desenvolvimento Front-End, Back-End e integração com bancos de dados. 💻✨</p>  
